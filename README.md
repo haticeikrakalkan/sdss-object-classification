@@ -4,7 +4,7 @@ Classifying celestial objects — **stars, galaxies, and quasars (QSOs)** — fr
 
 ## Dataset
 
-The dataset (`20-digitalskysurvey.csv`) contains **10,000 observations** from the Sloan Digital Sky Survey, with 18 original columns including:
+The dataset (`digitalskysurvey.csv`) contains **10,000 observations** from the Sloan Digital Sky Survey, with 18 original columns including:
 
 - **Photometric magnitudes**: `u`, `g`, `r`, `i`, `z` (five-band brightness measurements)
 - **Sky coordinates**: `ra` (right ascension), `dec` (declination)
@@ -46,14 +46,14 @@ xgboost
 ## Usage
 
 1. Clone the repository
-2. Place `20-digitalskysurvey.csv` in the project root
-3. Open and run `20-XGBoostClassifier.ipynb` in Jupyter
+2. Place `digitalskysurvey.csv` in the project root
+3. Open and run `XGBoostClassifier.ipynb` in Jupyter
 
 ## Project Structure
 
 ```
 .
-├── 20-XGBoostClassifier.ipynb   # Main notebook: EDA, feature selection, modeling, tuning
-├── 20-digitalskysurvey.csv      # SDSS dataset
+├── XGBoostClassifier.ipynb   # Main notebook: EDA, feature selection, modeling, tuning
+├── digitalskysurvey.csv      # SDSS dataset
 └── README.md
 ```
